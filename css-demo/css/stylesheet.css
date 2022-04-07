@@ -1,7 +1,5 @@
 /* ---------------Box Sizing----------------- */
-html{
-  box-sizing: border-box;
-}
+
   *,
   *:before,
   *:after {
@@ -312,8 +310,5 @@ html{
     header.primary nav li{
       margin-bottom:10px;
     }
-    
-    
-    
     
   }
