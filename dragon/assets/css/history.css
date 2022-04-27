@@ -83,11 +83,7 @@
   figure img {
     display: block;
     margin: auto;
-    width: 83%;
-  }
-  
-  figcaption {
-    margin-left: 8.5vw;
+    width: 70%;
   }
   
   #content caption {
