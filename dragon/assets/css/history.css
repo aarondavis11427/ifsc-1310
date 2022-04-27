@@ -80,10 +80,14 @@
     color: #8a8a8a;
   }
   
-  img {
+  figure img {
     display: block;
     margin: auto;
     width: 83%;
+  }
+  
+  figcaption {
+    margin-left: 8.5vw;
   }
   
   #content caption {
