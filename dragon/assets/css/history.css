@@ -80,10 +80,10 @@
     color: #8a8a8a;
   }
   
-  #intro img {
+  img {
+    display: block;
     margin: auto;
-    width: 50%;
-    padding: 10px;
+    width: 83%;
   }
   
   #content caption {
