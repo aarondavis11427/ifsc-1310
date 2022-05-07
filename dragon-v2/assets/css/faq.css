@@ -53,6 +53,9 @@
     padding: 0px 0px 25px 0px;
   }
   
+  header.primary nav {
+  }
+  
   header.primary nav ul {
     padding: 0;
     display: flex;
@@ -75,6 +78,10 @@
     background-color: rgba(0, 0, 0, 0.9);
   }
   
+  #content{
+    width: 75%;
+  }
+  
   #content header {
     text-align: center;
     padding: 25px 0px;
@@ -86,9 +93,14 @@
     border-top-width: 2px;
   }
   
-  #content h4,
+  #content h4{
+    color: #8a8a8a;
+    padding: 15px;
+  }
+  
   #content p {
     color: #8a8a8a;
+    padding-bottom: 15px;
   }
   
   aside {
