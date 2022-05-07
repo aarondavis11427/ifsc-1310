@@ -1,0 +1,38 @@
+body {
+  background-image: url(https://c4.wallpaperflare.com/wallpaper/427/682/323/tile-simple-light-blue-wallpaper-thumb.jpg);
+}
+
+li {
+  margin: 3px 15vw;
+}
+
+ul {
+  text-align: center;
+  color: #8a8a8a;
+}
+
+#big {
+  margin-top: 100px;
+}
+
+a:link {
+  color: #000000;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+hr {
+  width: 78%;
+  border: 0px solid #303030;
+  border-top-width: 1px;
+}
+
+div {
+  width: 75%;
+  text-align: center;
+  margin: 15px auto;
+  border: 1px solid #303030;
+  padding: 5px;
+}

@@ -1,19 +1,19 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-
   <title>IFSC 1310 | Aaron Davis</title>
   <meta name="description" content="Keyword Rich Description" />
   <meta name="author" content="Aaron Davis" />
-
+  <link href="assets/css/style.css" name="stylesheet" />
 </head>
 
 <body>
   <h1>Aaron Davis</h1>
   <nav>
-    <ul>
+    <ul id="big">
       <li>
         <a href="gordo/index.html" title="Our First Web Project">Gordo Assignment</a>
       </li>
@@ -23,14 +23,12 @@
       <li>
         <a href="assets/img/froggy-ss.png" title="Learning CSS">Flexbox Froggy</a>
       </li>
-      <li>
-        <ul>
-          <li><a href="positioning/float-1.html">Float 1</a></li>
-          <li><a href="positioning/float-2.html">Float 2</a></li>
-          <li><a href="positioning/absolute-1.html">Absolute 1</a></li>
-          <li><a href="positioning/absolute-2.html">Absolute 2</a></li>
-        </ul>
-      </li>
+      <ul>
+        <li><a href="positioning/float-1.html">Float 1</a></li>
+        <li><a href="positioning/float-2.html">Float 2</a></li>
+        <li><a href="positioning/absolute-1.html">Absolute 1</a></li>
+        <li><a href="positioning/absolute-2.html">Absolute 2</a></li>
+      </ul>
       <li>
         <a href="assets/img/Kkermitkut.jpg" title="Learning Gravit">Gravit Pen Tool Assignment</a>
       </li>
@@ -48,5 +46,16 @@
       </li>
     </ul>
   </nav>
+  <hr />
+  <section id="content" class="container">
+    <div>
+      <h2>Dragon Project Revision and Reflection</h2>
+      <p>Starting out, I looked through my first attempt for problems myself. I changed minor things that seemed improper or not useful. Most of my changes were tweaks in my stylesheets. In my homepage, I moved the first image into the "content" section because it was initially inbetween my "intro" and "content". The major problem that I noticed in all of my pages was that the logo wasn't set to viewport, so it wouldn't change sizes with the rest of the page. I changed the width to a vw measurement to fix that problem. I learned a lot about debugging and fixing problems. As an aside, I learned about a good website for html and css validation. Speaking of the aside, there was an unnecessary css identifier of which I got rid. I also added a clear property so that the body wouldn't overlap it. I also added clear to my page breaks so my floats wouldn't interfere with them. A friend of mine noticed some awkward spacing between my list elements so I added some margins I liked. I also changed the width of the body to be more appealing as well as fit with the style of my other pages.</p>
+      <p>The first change I made to my history page was a javascript slideshow since I felt that it was the best place for it. Initially I only had one picture in the middle of the page but I was having trouble with its css. It took me a while to realize that I needed to declare it as a block-level element. The image was also just in between the intro and content sections, so I moved it to content. The major thing I learned when revising my history page was to declare images as block-level. I also was able to work on some base-level javascript.</p>
+      <p>I had one of my friends take a look at my site and one of their critiques was that the faq needed more information. They also said that the information felt too close together. I put margins on the questions and answers as well as added more information. Apart from that, I didn't really notice anything I wanted to change besides the width of the body. I changed the width so that it would be more consistent with my other pages.</p>
+      <p>As a whole, this semester has been pretty fun. To be honest, I wasn't always very vigilant when it came to getting assignments done on time, but just playing some music and writing code is both enjoyable and fulfilling to me. I definitely plan on continuing with my programming degree. This was a very good introductory class and I've learned more than I thought I would initially. Most of the trouble I had with the class was learning proper head elements. Considering this, I think that it is interesting that the head is the easiest part for me now. I definitely had trouble with classifiers for css in the html. I still don't fully understand the purpose of using different types of classifiers for certain elements but I have a better grasp of it. I would say that I am most comfortable with css as a whole, although I'm still not as confident as I want to be in that regard. The SpaceX project really helped me bring everything I learned together. I used assistance from the css demo, but I can tell that I've learned a lot because I no longer need it to write css. The css for this course home page isn't anything special, but I didn't have to work off of anything besides my head, which feels very satisfying. If I got to start over, I would try to be a lot more on top of things so I could improve my understanding of the more subtle aspects of web development. Also, specificity is still a little confusing for me.</p>
+    </div>
+  </section>
 </body>
+
 </html>
